@@ -1,0 +1,42 @@
+
+
+/thailand/
+/thailand/koh-samui/
+/thailand/phuket/
+/thailand/bangkok/
+/thailand/chiang-mai/
+/thailand/
+
+/malaysia/
+/malaysia/kuala-lumpur/
+/malaysia/kota-kinabalu/
+/malaysia/penang/
+/malaysia/johor-bahru/
+/malaysia/
+/malaysia/
+
+/philippines/makati-city/
+/philippines/cebu/
+/philippines/bonifacio-global-city/
+/philippines/angeles-city/
+/philippines/ortigas/
+/philippines/tagaytay-city/
+/philippines/palawan/
+/philippines/boracay/
+
+
+/blog/making-a-home-in-phuket
+/blog/managing-an-overseas-property-investment
+/blog/
+/blog/
+
+/resource/legal-advisors/
+/resource/property-management/
+/resource/travel-agents/
+/resource/exchange-rate-risk-for-investment-properties
+	A primer on the risk of change in exchange rates, and how this might affect your investment return. As an
+	example, we ask the user to specify the currency of their income/consumption, then specify the currency of
+	the country where their investment property is located. For example, the user selects HKD and PHP, then we
+	show them a chart of the volatility between these two currencies over the last 10 years.
+/resource/
+/resource/

@@ -2,19 +2,152 @@
 layout: default
 ---
 
-<div class="home">
+{% include home_hero.html %}
 
-  <h1>Posts</h1>
+<div class="section2">
+<div class="wrapper">
+<!--
+  <div class="showWrapper1">
+   <a id="show1-prev" href="javascript:void(0)"></a>
+   <a id="show1-next" href="javascript:void(0)"></a>
+      <div class="show1"> 
+          
+        <div class="slide">
+          <ul class="show1-img">
+           <li><a href=""><img src="img/prop1.jpg" alt="img" /></a></li>
+           <li><a href=""><img src="img/prop1.jpg" alt="img" /></a></li>
+           <li><a href=""><img src="img/prop1.jpg" alt="img" /></a></li>
+           <li><a href=""><img src="img/prop1.jpg" alt="img" /></a></li>
+          </ul>
+          <div class="blackBand"></div>
+          <div class="flag flag1">Featured Villa</div> 
+          <div class="name">Sivana Gardens</div>
+          <div class="location">Koh Samui, Thailand</div>
+          <div class="money">$50,000,000</div>
+          <div class="size"><strong>Size:</strong> 3,363 sq ft</div>
+          <div class="type"><strong>Property Type:</strong>  Villa</div>
+        </div> 
+        
+       
+      </div>
+  </div>
+ --> 
+<!--
+  <div class="secondRow clearfix">
+   
+    <div class="show2Wrapper">
+      <div class="show2">
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+      <div class="slide2">
+            <ul class="show2-img">
+              <li><a href="/philippines/makati-city/solstice"><img src="img/solstice/AmenityLevel.jpg" alt="img" /></a></li>
+              <li><a href=""><img src="img/prop2.jpg" alt="img" /></a></li>
+              <li><a href=""><img src="img/prop2.jpg" alt="img" /></a></li>
+              <li><a href=""><img src="img/prop2.jpg" alt="img" /></a></li>
+            </ul>
+          <div class="blackBand"></div>
+          <div class="flag flag2">Featured Estate</div> 
+          <div class="name">Solstice</div>
+          <div class="location">Makati City, Philippines</div>
+          <div class="money">$50,000,000</div>
+          <div class="size"><strong>Size:</strong> 344 - 2,433sqft</div>
+          <div class="type"><strong>Property Type:</strong>  Villa</div>
+          <div class="base"></div>
+        </div> 
+         
+      </div>    
+    </div>
+    
+    <div class="show3Wrapper">
+      <div class="show3">
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      <div class="slide2">
+            <ul class="show3-img">
+              <li><a href="/philippines/makati-city/kroma-tower"><img src="img/kroma-tower/kroma1.jpg" alt="img" /></a></li>
+              <li><a href=""><img src="img/prop2.jpg" alt="img" /></a></li>
+              <li><a href=""><img src="img/prop2.jpg" alt="img" /></a></li>
+              <li><a href=""><img src="img/prop2.jpg" alt="img" /></a></li>
+            </ul>
+          <div class="blackBand"></div>
+          <div class="flag flag3">Featured Estate</div> 
+          <div class="name">Kroma Tower</div>
+          <div class="location">Makati City, Philippines</div>
+          <div class="money">$50,000,000</div>
+          <div class="size"><strong>Size:</strong> 290 - 1,270sqft</div>
+          <div class="type"><strong>Property Type:</strong>  Villa</div>
+          <div class="base"></div>
+        </div> 
+         
+      </div>    
+    </div>
+    
+  </div>
+-->
+<!--
+  <div class="secondRow clearfix">
+   
+    <div class="show2Wrapper">
+      <div class="show2">
 
+      <div class="slide2">
+            <ul class="show2-img">
+              <li><a href=""><img src="img/prop2.jpg" alt="img" /></a></li>
+              <li><a href=""><img src="img/prop2.jpg" alt="img" /></a></li>
+              <li><a href=""><img src="img/prop2.jpg" alt="img" /></a></li>
+              <li><a href=""><img src="img/prop2.jpg" alt="img" /></a></li>
+            </ul>
+          <div class="blackBand"></div>
+          <div class="flag flag2">Featured Estate</div> 
+          <div class="name">Solstice</div>
+          <div class="location">Makati City, Philippines</div>
+          <div class="money">$50,000,000</div>
+          <div class="size"><strong>Size:</strong> 344 - 2,433sqft</div>
+          <div class="type"><strong>Property Type:</strong>  Villa</div>
+          <div class="base"></div>
+        </div> 
+         
+      </div>    
+    </div>
+    
+    <div class="show3Wrapper">
+      <div class="show3">
+
+      <div class="slide2">
+            <ul class="show3-img">
+              <li><a href=""><img src="img/prop2.jpg" alt="img" /></a></li>
+              <li><a href=""><img src="img/prop2.jpg" alt="img" /></a></li>
+              <li><a href=""><img src="img/prop2.jpg" alt="img" /></a></li>
+              <li><a href=""><img src="img/prop2.jpg" alt="img" /></a></li>
+            </ul>
+          <div class="blackBand"></div>
+          <div class="flag flag3">Featured Estate</div> 
+          <div class="name">Sivana Gardens</div>
+          <div class="location">Koh Samui, Thailand</div>
+          <div class="money">$50,000,000</div>
+          <div class="size"><strong>Size:</strong> 3,363 sq ft</div>
+          <div class="type"><strong>Property Type:</strong>  Villa</div>
+          <div class="base"></div>
+        </div> 
+         
+      </div>    
+    </div>
+    
+  </div>
+
+-->
+</div>
+</div>
+
+<div class="section3">
+  <div class="wrapper">
+<!--    <div class="sectionTop clearfix">
+      <h3>Philippines Investment property</h3>
+    </div>-->
+    <div class="clearfix">
+{% for post in site.posts %}
+    {% capture thecycle %}{% cycle '', '', 'no-margin-r' %}{% endcapture %}
+    {% include partials/listing_3up.html extra_class=thecycle %}
+{% endfor %}
+    </div>
+  </div>
 </div>

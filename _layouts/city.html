@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+    <body>
+  <div class="listingTop">
+    {% include header.html %}
+    {% include breadcrumbs.html %}
+  </div>
+<div class="wrapper">
+  <div class="content clearfix">
+  
+    <div class="listingLeft">
+      <h1>{{ page.title }}</h1>
+      <h2>{{ page.country }}</h2>
+    <ul>
+      {% for post in site.categories.[Philippines] %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+    </div>
+
+    <div class="listingRight">
+      <div class="share">
+        <a href=""><img src="/img/list/home.png" class="home roller" /></a>
+        <a href=""><img src="/img/list/twitter.png" class="tw roller" /></a>
+        <a href=""><img src="/img/list/facebook.png" class="fb roller" /></a>        
+        <span>Share this page</span>      
+      </div>
+    </div>
+  </div>
+
+<div class="section3">
+  <div class="wrapper">
+    <div class="clearfix">
+        {% include {{page.listings_include}} %}
+    </div>
+  </div>
+</div>
+
+    
+  </div>
+</div>
+
+    {% include footer.html %}
+
+    </body>
+</html>

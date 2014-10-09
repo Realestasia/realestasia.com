@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+    <body>
+  <div class="listingTop">
+    {% include header.html %}
+    {% include breadcrumbs.html %}
+  </div>
+<div class="wrapper">
+  <div class="content clearfix">
+  
+    <div class="listingLeft">
+    
+      <h1>{{ page.title }}</h1>
+      <h2>{{ page.excerpt }}</h2>
+
+      <div class="section3">
+        <div class="wrapper">
+          <div class="clearfix">
+      {% for post in site.posts %}
+          {% capture thecycle %}{% cycle '', '', 'no-margin-r' %}{% endcapture %}
+          {% include partials/listing_3up.html extra_class=thecycle %}
+      {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="listingRight">
+      {% include partials/share-this-page.html %}
+    </div>
+    
+  </div>
+</div>
+
+    {% include footer.html %}
+
+    </body>
+</html>

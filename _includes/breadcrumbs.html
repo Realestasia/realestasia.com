@@ -1,0 +1,18 @@
+
+<div class="wrapper">
+  <div class="links">
+    <a href="/">Home</a>
+
+{% if page.layout == "city" %}
+    <span>></span>
+    <a href="/{{ page.country | slugify }}/">{{ page.country | capitalize }}</a>
+{% elsif page.layout == "listing" %}
+    <span>></span>
+    <a href="/{{ page.country | slugify }}/">{{ page.country | capitalize }}</a>
+    <span>></span>
+    <a href="/{{ page.country | slugify }}/{{ page.city | slugify }}/">{{ page.city | capitalize }}</a>
+{% endif %}
+    <span>></span>
+	{{ page.title }}
+  </div>
+</div>

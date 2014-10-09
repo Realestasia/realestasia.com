@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+    <body>
+  <div class="listingTop">
+    {% include header.html %}
+    {% include breadcrumbs.html %}
+  </div>
+<div class="wrapper">
+  <div class="content clearfix">
+  
+    <div class="listingLeft">
+    
+      <h1>{{ page.title }}</h1>
+      <h2>{{ page.excerpt }}</h2>
+
+      <div class="show4"> 
+          
+        <div class="slide">
+          <ul class="show4-img">
+           
+            {% for image in page.images %}
+            <li>
+              <div class="slide4">
+                <a href="{{ site.basecdn }}v2/l/{{ page.listing_id }}/{{image.basename}}-620x465.jpg">
+                  <!--<img src="/img/list/resize.png" class="resize roller" alt="ok" />-->
+                </a>
+                <img src="{{ site.basecdn }}v2/l/{{ page.listing_id }}/{{image.basename}}-620x465.jpg" alt="img" />
+                <span>{{ image.caption }}</span>
+                <div class="blackBand"></div>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div> 
+      </div>
+      
+      <div class="thumbs4 thumbs clearfix">
+      <ul class="show5-img">
+      {% for image in page.images %}
+        {% assign class="" %}
+        {% if forloop.index == 1 %}
+          {% assign class="active" %}
+        {% endif %}
+       <li>
+        <a class="{{ class }}" href="{{ site.basecdn }}v2/l/{{ page.listing_id }}/{{image.basename}}-620x465.jpg">
+          <img src="{{ site.basecdn }}v2/l/{{ page.listing_id }}/{{image.basename}}-80x60.jpg" alt="img" class="roller" />
+        </a>
+      </li>
+      {% endfor %}
+      </ul>
+      </div>
+      
+      {{ content }}
+      
+      <form>
+      <div class="contactBox">
+      	<h2>Make an inquiry</h2>
+        <img class="mug" src="/img/list/Untitled-1.jpg" alt="me" />
+        <div class="name">Max Waserman</div>
+        <div class="title">Prudential Realty</div>
+        <div class="email"><a href="">max@emailaddress.com</a></div>
+        <div class="phone">+72 1234 2422</div>
+        <a href=""><img src="/img/list/facebook.png" class="fb roller" /></a>
+        <a href=""><img src="/img/list/twitter.png" class="tw roller" /></a>
+        <a href=""><img src="/img/list/home.png" class="home roller" /></a>
+        
+        <div class="ft-1">Name</div>
+        <div class="c-input cnt1"><input type="text" name="frm" /></div>
+        <div class="ft-2">Email</div>
+        <div class="c-input cnt2"><input type="text" name="frm" /></div>
+        <div class="c-textarea cnt3"><textarea name="frm"></textarea></div>
+        
+        <input type="image" src="/img/list/submitquery.png" class="roller submit" />
+      </div>
+      </form>
+      
+      {% include partials/disqus_comments.html %}
+
+
+    </div>
+    
+    <div class="listingRight">
+    
+      <div class="share">
+        <a href=""><img src="/img/list/home.png" class="home roller" /></a>
+        <a href=""><img src="/img/list/twitter.png" class="tw roller" /></a>
+        <a href=""><img src="/img/list/facebook.png" class="fb roller" /></a>        
+        <span>Share this listing</span>      
+      </div>
+
+      <div class="">
+        <table class="table table-bordered table-striped">
+          <tr>
+            <th>Property ID</th>
+            <td>{{ page.listing_id }}</td>
+          </tr>
+          <tr>
+            <th>Current status</th>
+            <td><span class="label label-info">Under Construction</span></td>
+          </tr>
+          <tr>
+            <th>Completion date</th>
+            <td>October 2018</td>
+          </tr>
+          <tr>
+            <th>City</th>
+            <td>{{ page.city }}</td>
+          </tr>
+          <tr>
+            <th>Country</th>
+            <td>{{ page.country }}</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="enquiry">
+        <form class="enquiry-form" role="form">
+          <div class="form-group">
+              <label for="Fullname">Name</label>
+              <input type="text" class="form-control" id="Fullname" placeholder="Your name">
+          </div>
+          <div class="form-group">
+              <label for="EmailAddress">Email address</label>
+              <input type="email" class="form-control" id="EmailAddress" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+              <label for="Phone">Phone</label>
+              <input type="text" class="form-control" id="Phone" placeholder="Phone number">
+          </div>
+
+        </form>
+      </div>
+
+      <div class="agent clearfix">
+        <div class="left">
+         <img class="mug" src="/img/list/Untitled-1.jpg" alt="me" /><br />
+         <a href=""><img src="/img/list/connect.png" class="roller" alt="txt" /></a>
+         <a href=""><img src="/img/list/print.png" class="roller" alt="txt" /></a>
+         <a href=""><img src="/img/list/home.png" class="roller" alt="txt" /></a>
+        </div>
+        <div class="right">
+          <div class="name">Max Waserman</div>
+          <div class="title">Prudential Realty</div>
+          <br />
+          <a href=""><img src="/img/list/contact.png" class="roller" alt="cnt" /></a>
+        </div>
+      
+      </div>
+      
+      <div class="pdf">
+      <a href=""><img src="/img/list/pdf.png" class="roller" alt="pdf" /></a>
+      </div>
+      
+      
+      <div class="map">
+      <h3>Location Map</h3>
+      <img src="/img/list/map.jpg" alt="txt" />
+      </div>
+      
+      
+      <div class="similar">
+      <h3>Similar Listings</h3>
+
+{% for post in site.posts %}
+  {% if post.categories contains 'makati city' %}
+    {% include partials/listing_sidebar.html %}
+  {% endif %}
+{% endfor %}
+      </div>  
+    </div>    
+  </div>
+</div>
+
+    {% include footer.html %}
+
+    </body>
+</html>
