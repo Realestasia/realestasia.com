@@ -52,9 +52,19 @@
       {% endfor %}
       </ul>
       </div>
+
+<!--
+       <li>
+        <a class="{{ class }}" href="{{ site.basecdn }}v2/l/{{ page.listing_id }}/{{image.basename}}-620x465.jpg">
+          <img src="{{ site.basecdn }}v2/l/{{ page.listing_id }}/{{image.basename}}-80x60.jpg" alt="img" class="roller" />
+        </a>
+      </li>
+
+-->
+
       
       {{ content }}
-      
+<!--      
       <form>
       <div class="contactBox">
       	<h2>Make an inquiry</h2>
@@ -76,7 +86,9 @@
         <input type="image" src="/img/list/submitquery.png" class="roller submit" />
       </div>
       </form>
-      
+      -->
+      <h3>Comments &amp; Discussion</h3>
+    <hr />
       {% include partials/disqus_comments.html %}
 
 

@@ -125,7 +125,7 @@ $(document).ready(function() {
         buttonPrevHTML: '<a href="javascript:void(0)"></a>',
 		itemFirstInCallback:  mycarousel_itemFirstInCallback,
     });
-	
+
 	//carsosels
 
 	 $(".show5-img").jcarousel({
@@ -134,9 +134,10 @@ $(document).ready(function() {
         buttonPrevHTML: '<a href="javascript:void(0)"><img src="/img/prev3.png" /></a>'
     });
 
+/* MIKE: commented out for testing
 	 $(".slide4 a").lightBox();
 	 $(".thumbs4 ul a").lightBox();
-	
+*/	
 });
 
 

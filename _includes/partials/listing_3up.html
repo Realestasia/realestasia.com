@@ -1,5 +1,6 @@
       <div class="slide3 {{ include.extra_class}}">
-        <a href="{{ post.url }}"><img src="/img/prop3.jpg" alt="img" /></a>
+        <a href="{{ post.url }}">
+            <img src="{{ site.basecdn }}v2/l/{{ post.listing_id }}/{{post.images[0].basename}}-300x225.jpg" alt="img" /></a>
         <div class="blackBand"></div>
         <div class="flag flag4">Philippines</div> 
         <div class="name">{{ post.title }}</div>
