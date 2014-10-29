@@ -33,14 +33,17 @@
     </div>
   </div>
 
-<div class="section3">
-  <div class="wrapper">
-    <div class="clearfix">
-        {% include {{page.listings_include}} %}
+    <div class="section3">
+      <div class="wrapper">
+        <div class="clearfix">
+    {% assign this_city = page.city | downcase %}
+    {% for post in site.categories[this_city] %}
+        {% capture thecycle %}{% cycle '', '', 'no-margin-r' %}{% endcapture %}
+        {% include partials/listing_3up.html extra_class=thecycle %}
+    {% endfor %}
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-
     
   </div>
 </div>

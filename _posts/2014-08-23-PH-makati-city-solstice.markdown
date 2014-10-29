@@ -11,6 +11,15 @@ country: Philippines
 city: Makati City
 excerpt: "The landmark residential community in Circuit Makati"
 permalink: /philippines/makati-city/solstice
+images:
+ - caption: Beautiful caption 1
+   basename: "0001"
+ - caption: Beautiful caption 2
+   basename: "0002"
+ - caption: Beautiful caption 3
+   basename: "0003"
+ - caption: Beautiful caption 4
+   basename: "0004"
 ---
 
 <h3>Development Overview</h3>

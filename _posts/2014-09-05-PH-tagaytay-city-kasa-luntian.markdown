@@ -7,7 +7,6 @@ categories:
 - Philippines
 - Tagaytay City
 permalink: /philippines/tagaytay-city/kasa-luntian/
-
 country: Philippines
 city: Tagaytay City
 
