@@ -134,10 +134,10 @@ $(document).ready(function() {
         buttonPrevHTML: '<a href="javascript:void(0)"><img src="/img/prev3.png" /></a>'
     });
 
-/* MIKE: commented out for testing
+
 	 $(".slide4 a").lightBox();
 	 $(".thumbs4 ul a").lightBox();
-*/	
+
 });
 
 

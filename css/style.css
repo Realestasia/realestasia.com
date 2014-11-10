@@ -165,7 +165,7 @@ header nav.right a:hover, header nav.right a:hover span { background: none !impo
 .no-margin-r { margin-right: 0px !important; }
 .slide3 .base { position: absolute; width: 302px; height: 72px;  background: url("/img/base3.png"); top: 211px; left: -1px; } 
 .slide3 .img { position: absolute; top: 0px; left: 0px; z-index: 10; }
-.slide3 .flag { position: absolute; top: 20px; left: 0px; z-index: 30; }
+.slide3 .flag { position: absolute; top: 20px; left: 0px; z-index: 30; box-sizing: content-box; }
 .slide3 .blackBand { position: absolute; top: 143px; left: 0px; z-index: 20; height: 68px; background: url("/img/blackBand3.png"); width: 300px }
 .slide3 .name { position: absolute; top: 162px; left: 15px; z-index: 20; font-size: 16px; font-weight: bold; color: #fff; }
 .slide3 .location { position: absolute; top: 183px; left: 15px; z-index: 20; font-size: 12px;  color: #fff; }
@@ -292,7 +292,7 @@ footer .divider .right a:hover { color: #353535; }
 .listingLeft .contactBox .cnt3 { position:absolute; left: 342px; top: 147px; }
 
 .listingRight  { color: #212121; }
-.listingRight .share { height: 63px; padding-top: 33px; }
+.listingRight .share { height: 63px; padding-top: 33px; margin-bottom: 25px;}
 .listingRight .share a, .listingRight .share span { float: right; }
 .listingRight .share span { display: block; font-weight: bold; margin-right: 10px; margin-top: 5px; }
 .listingRight .share a { margin-left: 6px; }

@@ -2,6 +2,8 @@
 <html>
 
   {% include head.html %}
+<script type="text/javascript" src="/js/lightbox/js/jquery.lightbox.js"></script>
+<link rel="stylesheet" type="text/css" href="/js/lightbox/css/jquery.lightbox.css" media="screen" />
 
     <body>
   <div class="listingTop">
@@ -103,7 +105,48 @@
         <span>Share this listing</span>      
       </div>
 
-      <div class="">
+      <div class="panel panel-primary">
+        <div class="panel-heading"><h4 class="panel-title">Request more information</h4></div>
+        <div class="panel-body">
+
+       <div class="listing clearfix">
+         <div class="left">
+            <img src="{{ site.basecdn }}v2/l/{{ page.listing_id }}/{{page.images[0].basename}}-80x60.jpg" alt="txt" />
+         </div>
+         <div class="">
+              <address>
+                <strong>{{ page.title}}</strong><br />
+                {{ page.city }}<br />
+                {{ page.country }}
+              </address>
+         </div>
+       </div>
+
+
+          <p>Fill in your details to receive information on this development within 48 hours</p>
+
+          <hr />
+          <form class="enquiry-form" role="form">
+            <div class="form-group">
+                <label for="Fullname">Name</label>
+                <input type="text" class="form-control" id="Fullname" placeholder="Your name">
+            </div>
+            <div class="form-group">
+                <label for="EmailAddress">Email address</label>
+                <input type="email" class="form-control" id="EmailAddress" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="Phone">Phone</label>
+                <input type="text" class="form-control" id="Phone" placeholder="Phone number">
+            </div>
+            <div class="form-group">
+                <input type="submit" class="form-control btn btn-primary" id="submit" value="Request information">
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="panel">
         <table class="table table-bordered table-striped">
           <tr>
             <th>Property ID</th>
@@ -126,40 +169,6 @@
             <td>{{ page.country }}</td>
           </tr>
         </table>
-      </div>
-
-      <div class="enquiry">
-        <form class="enquiry-form" role="form">
-          <div class="form-group">
-              <label for="Fullname">Name</label>
-              <input type="text" class="form-control" id="Fullname" placeholder="Your name">
-          </div>
-          <div class="form-group">
-              <label for="EmailAddress">Email address</label>
-              <input type="email" class="form-control" id="EmailAddress" placeholder="Enter email">
-          </div>
-          <div class="form-group">
-              <label for="Phone">Phone</label>
-              <input type="text" class="form-control" id="Phone" placeholder="Phone number">
-          </div>
-
-        </form>
-      </div>
-
-      <div class="agent clearfix">
-        <div class="left">
-         <img class="mug" src="/img/list/Untitled-1.jpg" alt="me" /><br />
-         <a href=""><img src="/img/list/connect.png" class="roller" alt="txt" /></a>
-         <a href=""><img src="/img/list/print.png" class="roller" alt="txt" /></a>
-         <a href=""><img src="/img/list/home.png" class="roller" alt="txt" /></a>
-        </div>
-        <div class="right">
-          <div class="name">Max Waserman</div>
-          <div class="title">Prudential Realty</div>
-          <br />
-          <a href=""><img src="/img/list/contact.png" class="roller" alt="cnt" /></a>
-        </div>
-      
       </div>
       
       <div class="pdf">
