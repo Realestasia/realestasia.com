@@ -67,6 +67,10 @@ body { padding: 0px; margin: 0px; font-family: Helvetica, Arial, sans-serif; fon
 h1 { font-size: 36px; color: #FFF; text-shadow: #000 1px 1px 1px; font-weight: bold; padding-bottom: 12px; }
 h2 { font-size: 18px; color: #FFF; text-shadow: #000 1px 1px 1px; padding-bottom: 24px; }
 
+map-canvas {
+	
+}
+
 .roller { opacity: .80; }
 .homeTop { height: 389px; background: url('/img/bg1.jpg') no-repeat #000 center; }
 strong { font-weight: bold; }
@@ -255,7 +259,7 @@ footer .divider .right a:hover { color: #353535; }
 .listingLeft h3, .listingRight h3 { font-size: 16px; font-weight: bold; padding-top: 25px;padding-bottom: 6px; }
 .listingLeft p { line-height: 1.4em; }
 
-.listingLeft .features ul { float: left; width: 134px; list-style:disc; padding-left: 20px; line-height: 1.4em; }
+.listingLeft .features ul { float: left; width: 206px; list-style:disc; padding-left: 20px; line-height: 1.4em; }
 
 .listingLeft .media .left { float: left; width: 410px; }
 .listingLeft .media .right { float: right; width: 197px; }

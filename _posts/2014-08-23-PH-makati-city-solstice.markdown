@@ -2,56 +2,57 @@
 layout: listing
 listing_id: 10028
 title:  "Solstice"
-subtitle: "Beautiful building"
+excerpt: "Makati's lifestyle playground"
 categories:
 - Philippines
 - Makati City
 
 country: Philippines
 city: Makati City
-excerpt: "The landmark residential community in Circuit Makati"
 permalink: /philippines/makati-city/solstice
 images:
- - caption: Beautiful caption 1
+ - caption: ""
    basename: "0001"
- - caption: Beautiful caption 2
+ - caption: ""
    basename: "0002"
- - caption: Beautiful caption 3
+ - caption: ""
    basename: "0003"
- - caption: Beautiful caption 4
+ - caption: ""
    basename: "0004"
 ---
 
 <h3>Development Overview</h3>
-<p>Solstice promises a living experience that uniquely cultivates personal interests and vibrant sensibilities in the premier entertainment district of Circuit Makati, a home that's simply a beat from the city's busy urban landscape.</p>
+<p>Located at the heart of Makati's lifestyle playground, <strong>Solstice</strong> promises to offer
+multi-faceted fun living right within the master planned, modern-day city neighbourhood of Circuit Makati.
+Homeowners will benefit from an upscale living experience that will uniquely cultivate personal interests
+and vibrant sensibilities in a home that's simply a beat from Makati's busy urban landscape.</p>
 
-<h3>Local Area Description</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus tortor et risus aliquet egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum sapien a enim tempus vitae vestibulum dui commodo. Integer non lacus sagittis justo luctus egestas. Aliquam purus lorem, vestibulum quis porttitor tristique, dapibus suscipit urna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In ullamcorper sodales nulla eu interdum. Nam scelerisque nibh ac erat mi.</p>
+<h3>General Information</h3>
+<p><strong>Solstice</strong> is a mixed-use high rise condominium of 41 storeys. The development comprises 
+a total of 461 residential units and 405 residential car parking slots. The development is located in
+Circuit Makati, Carmona, Makati City.</p>
 
-<h3>Property Features</h3>
+<h3>Amenities</h3>
 <div class="features clearfix">
+
 <ul>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
+  <li>Function Room</li>
+  <li>Indoor Fitness Gym</li>
+  <li>Board Room</li>
+  <li>Lap Pool</li>
+  <li>Lounge Pool</li>
 </ul>
  <ul>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
+  <li>Kiddie Pool</li>
+  <li>Pool Deck</li>
+  <li>Juice Bar</li>
+  <li>Outdoor Lounge</li>
+  <li>Outdoor Gym</li>
 </ul>
  <ul>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-</ul>
- <ul>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
+  <li>Lawn Area</li>
+  <li>Play Area</li>
+  <li>Pocket Garden</li>
+  <li>Bamboo Garden</li>
 </ul>
 </div>

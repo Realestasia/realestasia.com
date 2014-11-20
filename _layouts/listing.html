@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
 <script type="text/javascript" src="/js/lightbox/js/jquery.lightbox.js"></script>
 <link rel="stylesheet" type="text/css" href="/js/lightbox/css/jquery.lightbox.css" media="screen" />
 
-    <body>
+<body>
   <div class="listingTop">
     {% include header.html %}
     {% include breadcrumbs.html %}
@@ -27,7 +26,7 @@
             <li>
               <div class="slide4">
                 <a href="{{ site.basecdn }}v2/l/{{ page.listing_id }}/{{image.basename}}-620x465.jpg">
-                  <!--<img src="/img/list/resize.png" class="resize roller" alt="ok" />-->
+                  <img src="/img/list/resize.png" class="resize roller" alt="ok" />
                 </a>
                 <img src="{{ site.basecdn }}v2/l/{{ page.listing_id }}/{{image.basename}}-620x465.jpg" alt="img" />
                 <span>{{ image.caption }}</span>
@@ -54,54 +53,25 @@
       {% endfor %}
       </ul>
       </div>
-
-<!--
-       <li>
-        <a class="{{ class }}" href="{{ site.basecdn }}v2/l/{{ page.listing_id }}/{{image.basename}}-620x465.jpg">
-          <img src="{{ site.basecdn }}v2/l/{{ page.listing_id }}/{{image.basename}}-80x60.jpg" alt="img" class="roller" />
-        </a>
-      </li>
-
--->
-
       
       {{ content }}
-<!--      
-      <form>
-      <div class="contactBox">
-      	<h2>Make an inquiry</h2>
-        <img class="mug" src="/img/list/Untitled-1.jpg" alt="me" />
-        <div class="name">Max Waserman</div>
-        <div class="title">Prudential Realty</div>
-        <div class="email"><a href="">max@emailaddress.com</a></div>
-        <div class="phone">+72 1234 2422</div>
-        <a href=""><img src="/img/list/facebook.png" class="fb roller" /></a>
-        <a href=""><img src="/img/list/twitter.png" class="tw roller" /></a>
-        <a href=""><img src="/img/list/home.png" class="home roller" /></a>
-        
-        <div class="ft-1">Name</div>
-        <div class="c-input cnt1"><input type="text" name="frm" /></div>
-        <div class="ft-2">Email</div>
-        <div class="c-input cnt2"><input type="text" name="frm" /></div>
-        <div class="c-textarea cnt3"><textarea name="frm"></textarea></div>
-        
-        <input type="image" src="/img/list/submitquery.png" class="roller submit" />
-      </div>
-      </form>
-      -->
+
+      <div class="clear"></div>
       <h3>Comments &amp; Discussion</h3>
+      <p>We kindly request and expect civilised discourse in this community. Comments that are offensive, off-topic or
+        of an inappropriate nature will not be tolerated.</p>
     <hr />
       {% include partials/disqus_comments.html %}
-
-
     </div>
     
     <div class="listingRight">
-    
       <div class="share">
-        <a href=""><img src="/img/list/home.png" class="home roller" /></a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{page.url}}">
+          <img src="/img/list/home.png" class="home roller" />
+        </a>
         <a href=""><img src="/img/list/twitter.png" class="tw roller" /></a>
-        <a href=""><img src="/img/list/facebook.png" class="fb roller" /></a>        
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}">
+          <img src="/img/list/facebook.png" class="fb roller" /></a>        
         <span>Share this listing</span>      
       </div>
 
@@ -121,10 +91,7 @@
               </address>
          </div>
        </div>
-
-
           <p>Fill in your details to receive information on this development within 48 hours</p>
-
           <hr />
           <form class="enquiry-form" role="form">
             <div class="form-group">
@@ -145,43 +112,7 @@
           </form>
         </div>
       </div>
-
-      <div class="panel">
-        <table class="table table-bordered table-striped">
-          <tr>
-            <th>Property ID</th>
-            <td>{{ page.listing_id }}</td>
-          </tr>
-          <tr>
-            <th>Current status</th>
-            <td><span class="label label-info">Under Construction</span></td>
-          </tr>
-          <tr>
-            <th>Completion date</th>
-            <td>October 2018</td>
-          </tr>
-          <tr>
-            <th>City</th>
-            <td>{{ page.city }}</td>
-          </tr>
-          <tr>
-            <th>Country</th>
-            <td>{{ page.country }}</td>
-          </tr>
-        </table>
-      </div>
-      
-      <div class="pdf">
-      <a href=""><img src="/img/list/pdf.png" class="roller" alt="pdf" /></a>
-      </div>
-      
-      
-      <div class="map">
-      <h3>Location Map</h3>
-      <img src="/img/list/map.jpg" alt="txt" />
-      </div>
-      
-      
+            
       <div class="similar">
       <h3>Similar Listings</h3>
 

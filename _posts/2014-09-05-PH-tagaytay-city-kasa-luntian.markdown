@@ -2,7 +2,7 @@
 layout: listing
 listing_id: 10033
 title:  "Kasa Luntian"
-excerpt: "The landmark residential community in Circuit Makati"
+excerpt: "Touch life"
 categories:
 - Philippines
 - Tagaytay City
@@ -11,46 +11,49 @@ country: Philippines
 city: Tagaytay City
 
 images:
- - caption: Beautiful caption 1
+ - caption: ""
    basename: "0001"
- - caption: Beautiful caption 2
+ - caption: ""
    basename: "0002"
- - caption: Beautiful caption 3
+ - caption: ""
    basename: "0003"
- - caption: Beautiful caption 4
+ - caption: ""
    basename: "0004"
 ---
 
 <h3>Development Overview</h3>
-<p>Alveo Land's first leisure condominium development in Tagaytay City embraces you with a more natural way of living.​</p>
+<p><strong>Kasa Luntian</strong> will be Alveo's first foray into leisure developments and is planned 
+  to be a leisure residential condominium complex with aquaint retail strip tucked away from the main 
+  road. The approximately 0.8-hectare retail district of the property is envisioned to be a unique 
+  destination with dining concepts such as organic bistros and coffee shops, as well as boutiques 
+  with special finds. The leisure condo neighborhood will be a low-rise and low-density community.</p>
 
-<h3>Local Area Description</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus tortor et risus aliquet egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum sapien a enim tempus vitae vestibulum dui commodo. Integer non lacus sagittis justo luctus egestas. Aliquam purus lorem, vestibulum quis porttitor tristique, dapibus suscipit urna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In ullamcorper sodales nulla eu interdum. Nam scelerisque nibh ac erat mi.</p>
+<h3>General Information</h3>
+<p>The development comprises studio, one and two bedroom units. Internal unit area ranges from 39sqm to 104sqm.</p>
 
-<h3>Property Features</h3>
+<h3>Amenities</h3>
 <div class="features clearfix">
-<ul>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-</ul>
- <ul>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-</ul>
- <ul>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-</ul>
- <ul>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-</ul>
+  <ul>
+    <li>Viewing Pavilion</li>
+    <li>Adult and Leisure Pool</li>
+    <li>Kiddie Pools</li>
+    <li>Cascading Jacuzzis</li>
+    <li>Pavilions</li>
+    <li>Open Lawn</li>
+  </ul>
+  <ul>
+    <li>Jungle Play Area</li>
+    <li>Open Greens</li>
+    <li>Nooks/Pocket Seating Areas</li>
+    <li>Herb Garden</li>
+    <li>Coffee Orchard</li>
+    <li>Rain Garden</li>
+  </ul>
+  <ul>
+    <li>Elevated Creekside Walkway</li>
+    <li>Tree House</li>
+    <li>Function Halls with Spill-over</li>
+    <li>Community Lounge per Floor</li>
+    <li>Community Deck (roof deck)</li>
+  </ul>
 </div>

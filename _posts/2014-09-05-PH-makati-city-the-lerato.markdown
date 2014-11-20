@@ -2,7 +2,7 @@
 layout: listing
 listing_id: 10031
 title:  "The Lerato"
-excerpt: "The landmark residential community in Circuit Makati"
+excerpt: "The Fine Art of Inspired City Living"
 categories:
 - Philippines
 - Makati City
@@ -12,46 +12,59 @@ permalink: /philippines/makati-city/the-lerato
 country: Philippines
 city: Makati City
 images:
- - caption: Beautiful caption 1
+ - caption: ""
    basename: "0001"
- - caption: Beautiful caption 2
+ - caption: ""
    basename: "0002"
- - caption: Beautiful caption 3
+ - caption: ""
    basename: "0003"
- - caption: Beautiful caption 4
+ - caption: ""
    basename: "0004"
 ---
 
 <h3>Development Overview</h3>
-<p>Located in the creative hub of Makati Central Business District North, The Lerato is designed for the playful and inspired. Transforming the definition of an artistic sanctuary, this is right where the spirit is free to create and indulge in fine city living.</p>
+<p>Discover how you can nurture the creative mind and the artistic spirit at The Lerato. 
+  Located in Makati Central Business District North - the city's newest creative hub that 
+  pulses with artistry, sense and style - the masterplanned residential community of 
+  The Lerato will be a three-tower development set within a quirky 9,813sqm land area.
+  With innovative living spaces set amidst an urban art inspired lifestyle district, residents
+  will find themselves surrounded by a culturally diverse environment, where one can
+  immerse in the endless pursuits of life and the fine art of inspired living.
+</p>
 
-<h3>Local Area Description</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus tortor et risus aliquet egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum sapien a enim tempus vitae vestibulum dui commodo. Integer non lacus sagittis justo luctus egestas. Aliquam purus lorem, vestibulum quis porttitor tristique, dapibus suscipit urna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In ullamcorper sodales nulla eu interdum. Nam scelerisque nibh ac erat mi.</p>
+<h3>General Information</h3>
+<p>The Lerato is a mixed-use development with three towers of high-rise condominium and retail 
+space. The development comprises a total of 1,455 residential units and 1,018 residential car 
+parking spaces.</p>
 
-<h3>Property Features</h3>
+<p></p>
+
+<h3>Amenities</h3>
 <div class="features clearfix">
+
 <ul>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
+  <li>Adult Leisure Pool</li>
+  <li>Kiddie Pool</li>
+  <li>Lap Pool (25 metres)</li>
+  <li>Gazebo</li>
+  <li>Children's Play Area</li>
+  <li>Jogging Trail</li>
+  <li>Lounge Area / Garden</li>
 </ul>
  <ul>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
+  <li>Workout Studio</li>
+  <li>Game Room</li>
+  <li>Meditation Room</li>
+  <li>Landscaped Roof Deck</li>
+  <li>Function Rooms</li>
+  <li>Kids Art Lab</li>
 </ul>
  <ul>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-</ul>
- <ul>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
-  <li>Swimming pool</li>
+  <li>Music Room</li>
+  <li>Theater Room</li>
+  <li>Culinary Studio</li>
+  <li>Mega Function Room</li>
+  <li>Library</li>
+  <li>Lounge Area</li>
 </ul>
 </div>
