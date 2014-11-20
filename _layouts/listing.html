@@ -93,20 +93,23 @@
        </div>
           <p>Fill in your details to receive information on this development within 48 hours</p>
           <hr />
-          <form class="enquiry-form" role="form">
+          <form class="enquiry-form" role="form" action="http://email.realestasia.com/t/y/s/fwzj/" method="post">
             <div class="form-group">
-                <label for="Fullname">Name</label>
-                <input type="text" class="form-control" id="Fullname" placeholder="Your name">
+                <label for="fieldName">Name</label>
+                <input name="cm-name" type="text" class="form-control" id="fieldName" placeholder="Your name">
             </div>
             <div class="form-group">
-                <label for="EmailAddress">Email address</label>
-                <input type="email" class="form-control" id="EmailAddress" placeholder="Enter email">
+                <label for="fieldEmail">Email address</label>
+                <input name="cm-fwzj-fwzj" type="email" class="form-control" id="fieldEmail" placeholder="Enter email">
             </div>
             <div class="form-group">
-                <label for="Phone">Phone</label>
-                <input type="text" class="form-control" id="Phone" placeholder="Phone number">
+                <label for="fieldcwuru">Phone</label>
+                <input name="cm-f-cwuru" type="text" class="form-control" id="fieldcwuru" placeholder="Phone number">
             </div>
             <div class="form-group">
+                <input id="fieldcwuyl" name="cm-f-cwuyl" type="hidden" value="{{ page.listing_id }}" /><!--Listing ID-->
+                <input id="fieldcwuyr" name="cm-f-cwuyr" type="hidden" value="{{ page.url }}" /><!--URL-->
+                <input id="fieldcwuyy" name="cm-f-cwuyy" type="hidden" value="{{ page.title}}" /><!--Listing Name-->
                 <input type="submit" class="form-control btn btn-primary" id="submit" value="Request information">
             </div>
           </form>
