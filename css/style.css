@@ -72,7 +72,7 @@ map-canvas {
 }
 
 .roller { opacity: .80; }
-.homeTop { height: 389px; background: url('/img/bg1.jpg') no-repeat #000 center; }
+.homeTop { height: 389px; background: url('http://cdn.realestasia.com/v2/img/bg1.jpg') no-repeat #000 center; }
 strong { font-weight: bold; }
 header { height: 53px; background: url('/img/nav.png'); }
 
