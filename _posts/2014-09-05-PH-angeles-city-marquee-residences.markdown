@@ -3,6 +3,9 @@ layout: listing
 listing_id: 10037
 title:  "Marquee Residences"
 excerpt: "The Signature Address of Pampanga"
+property_type: "Condominium"
+property_size: "TBC"
+property_price: "$POA"
 categories:
 - Philippines
 - Angeles City

@@ -3,6 +3,9 @@ layout: listing
 listing_id: 10032
 title:  "The Sandstone at Portico"
 excerpt: "Life, unhurried"
+property_type: "Condominium"
+property_size: "From 55sqm"
+property_price: "US$166k up"
 categories: 
 - Philippines
 - Ortigas

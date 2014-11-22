@@ -3,6 +3,9 @@ layout: listing
 listing_id: 10031
 title:  "The Lerato"
 excerpt: "The Fine Art of Inspired City Living"
+property_type: "Condominium"
+property_size: "From 29sqm"
+property_price: "US$73k up"
 categories:
 - Philippines
 - Makati City

@@ -3,6 +3,9 @@ layout: listing
 listing_id: 10028
 title:  "Solstice"
 excerpt: "Makati's lifestyle playground"
+property_type: "Condominium"
+property_size: "From 32 sqm"
+property_price: "US$87k up"
 categories:
 - Philippines
 - Makati City

@@ -3,6 +3,9 @@ layout: listing
 listing_id: 10033
 title:  "Kasa Luntian"
 excerpt: "Touch life"
+property_type: "Condominium"
+property_size: "From 39sqm"
+property_price: "US$98k up"
 categories:
 - Philippines
 - Tagaytay City

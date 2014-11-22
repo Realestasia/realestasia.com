@@ -3,6 +3,9 @@ layout: listing
 listing_id: 10029
 title:  "Kroma Tower"
 excerpt: "Superlative Metroliving"
+property_type: "Condominium"
+property_size: "From 27sqm"
+property_price: "US$73k up"
 categories:
 - Philippines
 - Makati City

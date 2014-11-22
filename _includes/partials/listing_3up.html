@@ -5,8 +5,8 @@
         <div class="flag flag4">Philippines</div> 
         <div class="name">{{ post.title }}</div>
         <div class="location">{{ post.city }}, {{ post.country }}</div>
-<!--        <div class="money">$50,000,000</div>-->
-        <div class="size"><strong>Size:</strong> 3,363 sq ft - {{ forloop.index }}</div>
-        <div class="type"><strong>Property Type:</strong>  Villa</div>
+        <div class="money">{{ post.property_price }}</div>
+        <div class="size"><strong>Size:</strong> {{ post.property_size }}</div>
+        <div class="type"><strong>Type:</strong> {{ post.property_type }}</div>
         <div class="base"></div>
       </div>    
