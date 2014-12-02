@@ -5,8 +5,8 @@ description: "Access our database of investment properties — starting from USD
 baseurl: ""
 basecdn: "http://cdn.realestasia.com/"
 url: "http://realestasia.com"
-twitter_username: realestasia
-github_username:  realestasia
+twitter_username: Realestasia
+github_username:  Realestasia
 
 # Build settings
 markdown: kramdown
