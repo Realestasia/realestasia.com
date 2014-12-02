@@ -3,8 +3,6 @@
 <meta name="twitter:creator" content="@{{ site.twitter_username }}" />
 <meta name="twitter:title" content="{{ page.title }} - {{page.city}}, {{page.country}}">
 <meta name="twitter:description" content="{{ page.excerpt }}">
-<meta name="twitter:url" content="{{ page.url }}" />
-
-{% for image in page.images %}
-<meta name="twitter:image{{forloop.index0}}" content="{{ site.basecdn }}v2/l/{{ page.listing_id }}/{{image.basename}}-620x465.jpg">
-{% endfor %}
+<meta name="twitter:url" content="{{site.url}}{{page.url}}" />
+{% for image in page.images limit:4 %}
+<meta name="twitter:image{{forloop.index0}}" content="{{ site.basecdn }}v2/l/{{ page.listing_id }}/{{image.basename}}-620x465.jpg">{% endfor %}
