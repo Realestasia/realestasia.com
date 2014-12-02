@@ -6,6 +6,8 @@ excerpt: "Makati's lifestyle playground"
 property_type: "Condominium"
 property_size: "From 32 sqm"
 property_price: "US$87k up"
+seo_title: "Solstice Makati - Condominium for sale in Makati City, Philippines | Realestasia"
+seo_description: "Solstice is a mixed-use high rise condominium of 41 storeys. The development comprises a total of 461 residential units and 405 residential car parking slots"
 categories:
 - Philippines
 - Makati City
