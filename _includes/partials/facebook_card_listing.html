@@ -5,5 +5,5 @@
 <meta property="og:type" content="article" />
 <meta property="article:author" content="https://www.facebook.com/Realestasia" />
 
-{% for image in page.images limit:1 %}<meta name="og:image" content="{{ site.basecdn }}v2/l/{{ page.listing_id }}/{{image.basename}}-620x465.jpg">
+{% for image in page.images limit:1 %}<meta name="og:image" content="{{ site.basecdn }}v2/l/{{ page.listing_id }}/{{image.basename}}-620x465.jpg" />
 {% endfor %}
