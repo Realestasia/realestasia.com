@@ -6,6 +6,8 @@ excerpt: "The Signature Address of Pampanga"
 property_type: "Condominium"
 property_size: "TBC"
 property_price: "$POA"
+seo_title: "Marquee Residences - Condominium for sale in Angeles City, Philippines | Realestasia"
+seo_description: "Marquee Residences is an upscale mid-rise residential development that is an integral part of Marquee, Angeles City's premier lifestyle destination."
 categories:
 - Philippines
 - Angeles City

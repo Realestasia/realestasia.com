@@ -6,6 +6,8 @@ excerpt: "Superlative Metroliving"
 property_type: "Condominium"
 property_size: "From 27sqm"
 property_price: "US$73k up"
+seo_title: "Kroma Tower - Condominium for sale in Makati City, Philippines | Realestasia"
+seo_description: "From 27sqm and US$73k and up - Kroma Tower is the newest and hottest mixed-use high-rise development in the Makati Central Business District."
 categories:
 - Philippines
 - Makati City

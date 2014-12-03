@@ -6,6 +6,10 @@ excerpt: "Touch life"
 property_type: "Condominium"
 property_size: "From 39sqm"
 property_price: "US$98k up"
+geo_lat: "14.127607"
+geo_lon: "120.972583"
+seo_title: "Kasa Luntian - Condominium for sale in Tagaytay City, Philippines | Realestasia"
+seo_description: "Kasa Luntian is an exciting foray into leisure developments and is planned to be a leisure residential condominium complex with a quaint retail strip tucked away from the main road"
 categories:
 - Philippines
 - Tagaytay City
@@ -26,7 +30,7 @@ images:
 
 <h3>Development Overview</h3>
 <p><strong>Kasa Luntian</strong> will be Alveo's first foray into leisure developments and is planned 
-  to be a leisure residential condominium complex with aquaint retail strip tucked away from the main 
+  to be a leisure residential condominium complex with a quaint retail strip tucked away from the main 
   road. The approximately 0.8-hectare retail district of the property is envisioned to be a unique 
   destination with dining concepts such as organic bistros and coffee shops, as well as boutiques 
   with special finds. The leisure condo neighborhood will be a low-rise and low-density community.</p>

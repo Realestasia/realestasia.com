@@ -6,6 +6,8 @@ excerpt: "Life, unhurried"
 property_type: "Condominium"
 property_size: "From 55sqm"
 property_price: "US$166k up"
+seo_title: "The Sandstone at Portico - Condominium for sale in Ortigas, Philippines | Realestasia"
+seo_description: "Masterplanned to feature an urban courtyard experience like no other, it takes inspiration from the Museum of Modern Art's (MoMA) courtyards in New York City"
 categories: 
 - Philippines
 - Ortigas
@@ -30,8 +32,8 @@ images:
 ---
 
 <h3>Development Overview</h3>
-<p>Portico will be a mixed -use high- rise condominium development and retail district in Ortigas. Masterplanned to feature an urban 
-  courtyard experience like no other, it takes inspiration from the Museum  of Modern Art's (MoMA) courtyards in New York City, with 
+<p>Portico will be a mixed-use high-rise condominium development and retail district in Ortigas. Masterplanned to feature an urban 
+  courtyard experience like no other, it takes inspiration from the Museum of Modern Art's (MoMA) courtyards in New York City, with 
   its lush greenways, cobblestone pavements and quaint open spaces.</p>
 
 <h3>General Information</h3>

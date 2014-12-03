@@ -6,6 +6,8 @@ excerpt: "The Fine Art of Inspired City Living"
 property_type: "Condominium"
 property_size: "From 29sqm"
 property_price: "US$73k up"
+seo_title: "The Lerato - Condominium for sale in Makati City, Philippines | Realestasia"
+seo_description: "Located in Makati Central Business District North - the city's newest creative hub that pulses with artistry, sense and style - the masterplanned residential community of The Lerato will be a three-tower development"
 categories:
 - Philippines
 - Makati City
