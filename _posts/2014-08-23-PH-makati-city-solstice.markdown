@@ -14,7 +14,7 @@ categories:
 
 country: Philippines
 city: Makati City
-permalink: /philippines/makati-city/solstice
+permalink: /philippines/makati-city/solstice/
 images:
  - caption: ""
    basename: "0001"

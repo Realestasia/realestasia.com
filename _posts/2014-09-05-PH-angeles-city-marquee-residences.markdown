@@ -11,7 +11,7 @@ seo_description: "Marquee Residences is an upscale mid-rise residential developm
 categories:
 - Philippines
 - Angeles City
-permalink: /philippines/angeles-city/marquee-residences
+permalink: /philippines/angeles-city/marquee-residences/
 
 country: Philippines
 city: Angeles City

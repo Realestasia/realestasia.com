@@ -14,7 +14,7 @@ categories:
 country: Philippines
 city: Makati City
 
-permalink: /philippines/makati-city/kroma-tower
+permalink: /philippines/makati-city/kroma-tower/
 images:
  - caption: ""
    basename: "0001"

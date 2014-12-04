@@ -12,7 +12,7 @@ categories:
 - Philippines
 - Makati City
 
-permalink: /philippines/makati-city/the-lerato
+permalink: /philippines/makati-city/the-lerato/
 
 country: Philippines
 city: Makati City

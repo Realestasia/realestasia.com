@@ -12,7 +12,7 @@ categories:
 - Philippines
 - Ortigas
 
-permalink: /philippines/ortigas/the-sandstone-at-portico
+permalink: /philippines/ortigas/the-sandstone-at-portico/
 
 country: Philippines
 city: Ortigas

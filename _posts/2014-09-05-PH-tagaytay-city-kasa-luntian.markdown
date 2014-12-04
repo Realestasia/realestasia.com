@@ -13,7 +13,7 @@ seo_description: "Kasa Luntian is an exciting foray into leisure developments an
 categories:
 - Philippines
 - Tagaytay City
-permalink: /philippines/tagaytay-city/kasa-luntian
+permalink: /philippines/tagaytay-city/kasa-luntian/
 country: Philippines
 city: Tagaytay City
 
