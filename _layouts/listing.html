@@ -11,6 +11,15 @@
   <link rel="stylesheet" type="text/css" href="/js/lightbox/css/jquery.lightbox.css" media="screen" />
 {% include partials/twitter_card_listing.html %}
 {% include partials/facebook_card_listing.html %}
+<script type="text/javascript">
+mixpanel.track("Listing viewed", {
+    "Listing ID": {{ page.listing_id }}
+});
+// track submission for form id "enquiry"
+mixpanel.track_forms("#enquiry", "Listing enquiry", {
+  "Listing ID": {{page.listing_id }}
+});
+</script>
 </head>
 
 <body>
@@ -103,7 +112,7 @@
        </div>
           <p>Fill in your details to receive information on this development within 48 hours</p>
           <hr />
-          <form class="enquiry-form" role="form" action="http://email.realestasia.com/t/y/s/fwzj/" method="post">
+          <form class="enquiry-form" role="form" id="enquiry" action="http://email.realestasia.com/t/y/s/fwzj/" method="post">
             <div class="form-group">
                 <label for="fieldName">Name</label>
                 <input name="cm-name" type="text" class="form-control" id="fieldName" placeholder="Your name">
@@ -120,7 +129,7 @@
                 <input id="fieldcwuyl" name="cm-f-cwuyl" type="hidden" value="{{ page.listing_id }}" /><!--Listing ID-->
                 <input id="fieldcwuyr" name="cm-f-cwuyr" type="hidden" value="{{ page.url }}" /><!--URL-->
                 <input id="fieldcwuyy" name="cm-f-cwuyy" type="hidden" value="{{ page.title}}" /><!--Listing Name-->
-                <input type="submit" class="form-control btn btn-primary" id="submit" value="Request information">
+                <input type="submit" class="form-control btn btn-primary" value="Request information">
             </div>
           </form>
         </div>

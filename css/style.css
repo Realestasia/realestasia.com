@@ -74,22 +74,20 @@ map-canvas {
 .roller { opacity: .80; }
 .homeTop { height: 389px; background: url('http://cdn.realestasia.com/v2/img/bg1.jpg') no-repeat #000 center; }
 strong { font-weight: bold; }
-header { height: 53px; background: url('/img/nav.png'); }
+header { height: 53px; background: url('/img/nav.png'); vertical-align: middle;}
 
 header #logo { float: left; display: block; background: url('/img/realestasia-logo.png'); height: 21px; width: 122px; margin-top: 15px; } 
 header #logo { float: left; display: block; background: url('/img/realestasia-logo-1.png'); height: 29px; width: 161px; margin-top: 9px; } 
-header nav { float: left; margin-left: 23px; margin-top: 13px; }
-
+header nav { float: left; margin-left: 23px; margin-top: 0px; }
+/*
 header nav a { float: left; display: block; margin-right: 5px; padding-left: 8px; height: 27px; font-weight: bold;  text-shadow: #333 1px 1px 1px;  }
 header nav a span { display: block; margin-right: 5px; padding-left: 4px; height: 20px; padding-right: 12px; padding-top: 7px; font-weight: bold;   }
 header nav a:hover { background: url('/img/linkLeft.png') no-repeat;  }
 header nav a:hover span { background: url('/img/linkRight.png') no-repeat right; }
+*/
 
-header nav.right { float: right; }
-header nav.right span.dot { float: left; display: block; padding: 4px; text-shadow: #000 1px 1px 1px; font-weight: bold; color: #FFF;  } 
-header nav.right a { margin: 0px !important; padding-left: 0px; padding-right: 0px;  }
-header nav.right a span { padding-left: 0px; padding-right: 0px;  }
-header nav.right a:hover, header nav.right a:hover span { background: none !important; }
+header nav.right { float: right; line-height: 48px;}
+header nav.right a { color: #FFF;}
 
 .topContent { padding-top: 61px; }
 .topContent .input .field { background: url('/img/input.png') no-repeat; height: 42px; width: 423px; } 
